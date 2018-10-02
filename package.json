@@ -22,7 +22,7 @@
     "jest": "^23.6.0"
   },
   "scripts": {
-    "test": "eslint . && jest --coverage",
+    "test": "eslint . && jest --coverage --forceExit --runInBand",
     "justJest": "jest --coverage",
     "justLint": "./node_modules/eslint/bin/eslint.js ./src/*.js",
     "start-server": "./makesure.sh; node ./src/app.js",
