@@ -1,6 +1,9 @@
 {
   "name": "11-14-express-api",
   "version": "1.0.0",
+  "engines:" : {
+    "node": "10.8.0"
+  },
   "description": "a vanilla RESTful API with in-memory persistence",
   "main": "./src/app.js",
   "dependencies": {
@@ -22,6 +25,7 @@
     "jest": "^23.6.0"
   },
   "scripts": {
+    "start": "node src/app.js",
     "test": "eslint . && jest --coverage --forceExit --runInBand",
     "justJest": "jest --coverage",
     "justLint": "./node_modules/eslint/bin/eslint.js ./src/*.js",

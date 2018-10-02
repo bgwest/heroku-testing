@@ -93,7 +93,7 @@ describe('testing app.js routes and responses.', () => {
           .then((getResponse) => {
             setTimeout(() => {
               expect(getResponse.status).toEqual(201);
-            }, 1000);
+            }, 500);
           });
       });
   });
