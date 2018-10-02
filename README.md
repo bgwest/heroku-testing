@@ -1,6 +1,6 @@
-# 11: Express - app.js
+# 13 - heroku testing (need to update readme)
 ##### restful HTTP server built with express
-[![Build Status](https://travis-ci.com/bgwest/11-14-express-api.svg?branch=13-mongo-single-resource-heroku-testing)](https://travis-ci.com/bgwest/11-14-express-api)
+[![Build Status](https://travis-ci.com/bgwest/heroku-testing.svg?branch=master)](https://travis-ci.com/bgwest/heroku-testing)
 ## Current Features
 
 These methods currently exist for creating, changing, deleting, and getting user data. Updates to this API will continue to stream in as this project moves forward. Currently I am part 13 of 14.
